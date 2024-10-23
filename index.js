@@ -1,4 +1,4 @@
-const puppeteer = require('puppeteer'); // Running script : Open terminal and type "node index.js"
+const puppeteer = require('puppeteer');
 
 (async() => {
     const browser = await puppeteer.launch({ headless: false });
@@ -19,7 +19,7 @@ const puppeteer = require('puppeteer'); // Running script : Open terminal and ty
         return headingList.map(h => h.innerText);
     })
 
-    window.scroll(0, 500);
+    //await window.scrollTo(0, 500);
 
     await delay(5000);
     console.log("Waited an additional 5s");

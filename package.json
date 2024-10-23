@@ -1,0 +1,19 @@
+{
+  "name": "demo.puppeteer",
+  "version": "1.0.0",
+  "description": "Puppeteer example project",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "keywords": [
+    "Puppeteer",
+    "Example"
+  ],
+  "author": "İbrahim Kaya <https://github.com/ibrahimkaya1989>",
+  "license": "ISC",
+  "devDependencies": {
+    "puppeteer": "^23.6.0",
+    "puppeteer-core": "^23.6.0"
+  }
+}
